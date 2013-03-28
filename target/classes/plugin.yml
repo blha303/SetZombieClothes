@@ -1,0 +1,8 @@
+name: SetZombieClothes
+main: me.blha303.zombieclothes.Main
+version: 1
+commands:
+    setzombieclothes:
+        description: Allows the player to spawn a zombie with their current clothes
+        aliases: [szc, zombieclothes]
+        usage: /szc [x] [y] [z] [player] [entitytype] [world]
