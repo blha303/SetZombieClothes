@@ -57,6 +57,7 @@ public class Main extends JavaPlugin {
 				le.getEquipment().setChestplate(target.getEquipment().getChestplate());
 				le.getEquipment().setLeggings(target.getEquipment().getLeggings());
 				le.getEquipment().setBoots(target.getEquipment().getBoots());
+				le.getEquipment().setItemInHand(target.getEquipment().getItemInHand());
 				le.setCustomName(target.getName());
 				return true;
 			} else {
@@ -93,6 +94,7 @@ public class Main extends JavaPlugin {
 				le.getEquipment().setChestplate(target.getEquipment().getChestplate());
 				le.getEquipment().setLeggings(target.getEquipment().getLeggings());
 				le.getEquipment().setBoots(target.getEquipment().getBoots());
+				le.getEquipment().setItemInHand(target.getEquipment().getItemInHand());
 				le.setCustomName(target.getName());
 				return true;
 			} else {
